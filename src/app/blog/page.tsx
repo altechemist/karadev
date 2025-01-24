@@ -11,7 +11,7 @@ export default function BlogPage() {
     <div className="bg-bodyColor text-white/80">
       <Container className="bg-bodyColor text-white/80 px-4 py-20 md:px-20 md:py-16 min-h-screen content-center">
         <h1 className="text-3xl text-center md:text-5xl font-bold text-lightSky">
-          Kara Writes
+          Blog Posts
         </h1>
 
         <p className="text-center text-white/70 text-lg md:text-xl mt-4 max-w-4xl mx-auto">

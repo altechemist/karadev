@@ -82,7 +82,7 @@ export default function WorkPage() {
 
       setProjects(formattedData);
     } catch (error) {
-      console.error("Error fetching projects:", error);
+      alert("Error fetching projects:"+  error);
     }
     setLoading(false);
   };

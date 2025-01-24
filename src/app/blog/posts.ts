@@ -27,15 +27,16 @@ export function getPosts(): Post[] {
 
     // Check if required fields exist
     if (!data.title || !data.image || !data.description || !data.author || !data.date) {
-      throw new Error(`Post at ${filePath} is missing required metadata`);
+      //is missing required metadata. Ensure the following fields are present: title, image, description, author, date.`);
     }
 
+    // Return post data with fallback for missing metadata
     return {
-      title: data.title,
-      image: data.image,
-      description: data.description,
-      author: data.author,
-      date: data.date,
+      title: data.title || 'Untitled',
+      image: data.image || '/default-image.jpg',
+      description: data.description || 'No description provided.',
+      author: data.author || 'Unknown Author',
+      date: data.date || 'Unknown Date',
       content,
       slug,
     };

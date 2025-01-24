@@ -37,8 +37,6 @@ const Footer = () => {
       return;
     }
 
-    // Placeholder for sending the message (e.g., API call to send email)
-    console.log("Form data:", { name, email, message });
 
     // Close modal after successful submission
     setIsModalOpen(false);

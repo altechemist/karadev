@@ -5,36 +5,28 @@ import { Badge } from "./ui/badge";
 
 const workHistory = [
   {
-    jobTitle: "Frontend Developer",
-    company: "Tech Innovators Inc.",
-    duration: "Jan 2022 - Present",
+    jobTitle: "Fullstack Developer",
+    company: "CodeTribe",
+    duration: "Jun 2024 - Present",
     description:
       "Developed responsive web applications using React, Tailwind CSS, and TypeScript. Collaborated with cross-functional teams to deliver high-quality user interfaces and improve performance.",
-    stack: ["NodeJS", "Flutter"],
+    stack: ["React", "Tailwind CSS", "TypeScript"],
   },
   {
-    jobTitle: "UI/UX Designer",
-    company: "Creative Studios",
-    duration: "Jun 2020 - Dec 2021",
+    jobTitle: "Software Engineer",
+    company: "Digistrads",
+    duration: "2022 - Current",
     description:
-      "Designed user-friendly interfaces and created wireframes for mobile and web applications. Conducted usability testing and collaborated with developers to ensure design consistency.",
-    stack: ["NodeJS", "Flutter"],
+      "Developed responsive websites using HTML, CSS, and JavaScript. Built e-commerce solutions integrating shopping carts, payment gateways, and inventory systems. Managed SQL databases, developed backend systems using Django, and built cross-platform apps with Angular and Firebase. Used GitHub for version control and collaborated effectively with teams.",
+    stack: ["HTML", "CSS", "JavaScript", "Django", "Angular", "Firebase", "SQL", "Git"],
   },
   {
-    jobTitle: "Software Engineer Intern",
-    company: "NextGen Solutions",
-    duration: "Jan 2020 - May 2020",
+    jobTitle: "Freelancer",
+    company: "Self Employed",
+    duration: "2015 - 2022",
     description:
-      "Assisted in developing backend APIs and frontend features for e-commerce platforms. Worked on improving website load times and optimizing database queries.",
-    stack: ["NodeJS", "Flutter"],
-  },
-  {
-    jobTitle: "Freelance Web Developer",
-    company: "Self-Employed",
-    duration: "2018 - 2020",
-    description:
-      "Built custom websites for small businesses using modern technologies like React, Vue.js, and WordPress. Focused on SEO optimization and cross-browser compatibility.",
-    stack: ["NodeJS", "Flutter"],
+      "Handled diverse projects including hardware installations, client communication, software testing, and debugging. Provided excellent customer service and managed multiple projects efficiently. Demonstrated self-motivation and commitment to continuous learning in the tech industry.",
+    stack: ["Hardware", "Networking", "Software Testing", "Client Communication"],
   },
 ];
 

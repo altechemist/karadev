@@ -121,42 +121,49 @@ export const toolsData = {
       icon: FaHtml5,
       description:
         "Markup language used for structuring and presenting content on the web.",
+      skillLevel: "Expert",
     },
     {
       name: "CSS3",
       icon: FaCss3,
       description:
         "Style sheet language used for describing the presentation of a document written in HTML.",
+      skillLevel: "Expert",
     },
     {
       name: "JavaScript (ES6+)",
       icon: FaJs,
       description:
         "Programming language for web development, allowing dynamic content and interactive features.",
+      skillLevel: "Advanced",
     },
     {
       name: "React.js",
       icon: FaReact,
       description:
         "JavaScript library for building user interfaces, particularly single-page applications.",
+      skillLevel: "Advanced",
     },
     {
       name: "Next.js",
       icon: FaNodeJs,
       description:
         "React framework for server-side rendering, static site generation, and more.",
+      skillLevel: "Intermediate",
     },
     {
       name: "Tailwind CSS",
       icon: SiTailwindcss,
       description:
         "Utility-first CSS framework for rapidly building custom designs.",
+      skillLevel: "Advanced",
     },
     {
       name: "Bootstrap",
       icon: FaBootstrap,
       description:
         "Popular framework for building responsive, mobile-first websites with predefined components.",
+      skillLevel: "Intermediate",
     },
   ],
 
@@ -167,36 +174,42 @@ export const toolsData = {
       icon: SiNextdotjs,
       description:
         "JavaScript runtime for building scalable network applications.",
+      skillLevel: "Advanced",
     },
     {
       name: "Express.js",
       icon: SiExpress,
       description:
         "Minimalist web framework for Node.js, used for building web applications and APIs.",
+      skillLevel: "Intermediate",
     },
     {
       name: "Python",
       icon: FaPython,
       description:
         "High-level programming language used for web and app development, data analysis, and more.",
+      skillLevel: "Advanced",
     },
     {
       name: "Django",
       icon: SiDjango,
       description:
         "High-level Python web framework for rapid development and clean, pragmatic design.",
+      skillLevel: "Intermediate",
     },
     {
       name: "Flask",
       icon: SiFlask,
       description:
         "Micro web framework for Python, ideal for building small applications and APIs.",
+      skillLevel: "Intermediate",
     },
     {
       name: "RESTful APIs",
       icon: TbApi,
       description:
         "Architectural style for designing networked applications using HTTP requests to perform CRUD operations.",
+      skillLevel: "Advanced",
     },
   ],
 
@@ -207,30 +220,35 @@ export const toolsData = {
       icon: SiMysql,
       description:
         "Relational database management system known for its speed, reliability, and ease of use.",
+      skillLevel: "Advanced",
     },
     {
       name: "MongoDB",
       icon: SiMongodb,
       description:
         "NoSQL database that stores data in a flexible, JSON-like format.",
+      skillLevel: "Intermediate",
     },
     {
       name: "PostgreSQL",
       icon: SiPostgresql,
       description:
         "Open-source, object-relational database system known for reliability and feature-richness.",
+      skillLevel: "Intermediate",
     },
     {
       name: "Firebase",
       icon: SiFirebase,
       description:
         "NoSQL cloud database from Google, offering real-time syncing and cloud functions.",
+      skillLevel: "Intermediate",
     },
     {
       name: "SQLite",
       icon: SiSqlite,
       description:
         "Self-contained, serverless, and zero-configuration SQL database engine.",
+      skillLevel: "Beginner",
     },
   ],
 
@@ -241,33 +259,39 @@ export const toolsData = {
       icon: FaGithub,
       description:
         "Version control system to track changes and collaborate on code.",
+      skillLevel: "Advanced",
     },
     {
       name: "VS Code",
       icon: VscVscode,
       description:
         "A powerful code editor with support for debugging, Git integration, and extensions.",
+      skillLevel: "Expert",
     },
     {
       name: "Postman",
       icon: SiPostman,
       description:
         "Tool for testing APIs, sending requests, and checking responses.",
+      skillLevel: "Advanced",
     },
     {
       name: "Heroku",
       icon: SiHeroku,
       description:
         "Platform-as-a-Service (PaaS) for deploying and managing applications in the cloud.",
+      skillLevel: "Intermediate",
     },
     {
       name: "Figma",
       icon: SiFigma,
       description:
         "Web-based UI/UX design tool for collaboration and prototyping.",
+      skillLevel: "Intermediate",
     },
   ],
 };
+
 
 export const featuredRepos = [
   {
@@ -287,7 +311,6 @@ export const featuredRepos = [
     imageUrl: "/personalization.png",
   },
 ];
-
 
 export const listedRepos = ["alx-low_level_programming", "alx-pre_course", "alx-system_engineering-devops", "github-slideshow"];
 

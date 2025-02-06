@@ -20,6 +20,7 @@ import {
   SiPostgresql,
   SiPostman,
   SiSqlite,
+  SiVercel,
 } from "react-icons/si";
 
 import {
@@ -121,42 +122,42 @@ export const toolsData = {
       icon: FaHtml5,
       description:
         "Markup language used for structuring and presenting content on the web.",
-      skillLevel: "Expert",
+      skillLevel: "Intermediate",
     },
     {
       name: "CSS3",
       icon: FaCss3,
       description:
         "Style sheet language used for describing the presentation of a document written in HTML.",
-      skillLevel: "Expert",
+      skillLevel: "Intermediate",
     },
     {
       name: "JavaScript (ES6+)",
       icon: FaJs,
       description:
         "Programming language for web development, allowing dynamic content and interactive features.",
-      skillLevel: "Advanced",
+      skillLevel: "Intermediate",
     },
     {
       name: "React.js",
       icon: FaReact,
       description:
         "JavaScript library for building user interfaces, particularly single-page applications.",
-      skillLevel: "Advanced",
+      skillLevel: "Intermediate",
     },
     {
       name: "Next.js",
       icon: FaNodeJs,
       description:
         "React framework for server-side rendering, static site generation, and more.",
-      skillLevel: "Intermediate",
+      skillLevel: "Beginner",
     },
     {
       name: "Tailwind CSS",
       icon: SiTailwindcss,
       description:
         "Utility-first CSS framework for rapidly building custom designs.",
-      skillLevel: "Advanced",
+      skillLevel: "Beginner",
     },
     {
       name: "Bootstrap",
@@ -174,21 +175,21 @@ export const toolsData = {
       icon: SiNextdotjs,
       description:
         "JavaScript runtime for building scalable network applications.",
-      skillLevel: "Advanced",
+      skillLevel: "Intermediate",
     },
     {
       name: "Express.js",
       icon: SiExpress,
       description:
         "Minimalist web framework for Node.js, used for building web applications and APIs.",
-      skillLevel: "Intermediate",
+      skillLevel: "Beginner",
     },
     {
       name: "Python",
       icon: FaPython,
       description:
         "High-level programming language used for web and app development, data analysis, and more.",
-      skillLevel: "Advanced",
+      skillLevel: "Intermediate",
     },
     {
       name: "Django",
@@ -248,7 +249,7 @@ export const toolsData = {
       icon: SiSqlite,
       description:
         "Self-contained, serverless, and zero-configuration SQL database engine.",
-      skillLevel: "Beginner",
+      skillLevel: "Intermediate",
     },
   ],
 
@@ -259,35 +260,42 @@ export const toolsData = {
       icon: FaGithub,
       description:
         "Version control system to track changes and collaborate on code.",
-      skillLevel: "Advanced",
+      skillLevel: "Intermediate",
     },
     {
       name: "VS Code",
       icon: VscVscode,
       description:
         "A powerful code editor with support for debugging, Git integration, and extensions.",
-      skillLevel: "Expert",
+      skillLevel: "Intermediate",
     },
     {
       name: "Postman",
       icon: SiPostman,
       description:
         "Tool for testing APIs, sending requests, and checking responses.",
-      skillLevel: "Advanced",
+      skillLevel: "Beginner",
+    },
+    {
+      name: "Vercel",
+      icon: SiVercel,
+      description:
+        "NoSQL database that stores data in a flexible, JSON-like format.",
+      skillLevel: "Beginner",
     },
     {
       name: "Heroku",
       icon: SiHeroku,
       description:
         "Platform-as-a-Service (PaaS) for deploying and managing applications in the cloud.",
-      skillLevel: "Intermediate",
+      skillLevel: "Beginner",
     },
     {
       name: "Figma",
       icon: SiFigma,
       description:
         "Web-based UI/UX design tool for collaboration and prototyping.",
-      skillLevel: "Intermediate",
+      skillLevel: "Beginner",
     },
   ],
 };
@@ -346,6 +354,58 @@ export const reviewData = [
     position: "VP of Engineering",
     company: "NextGen Technologies",
     companyUrl: "https://nextgentech.com/",
+  },
+];
+
+export const goalsAndAchievements = [
+  {
+    title: "Achievements",
+    items: [
+      "✅ Built and deployed scalable applications solving real-world challenges.",
+      "✅ Gained full-stack expertise in frontend, backend, and databases.",
+      "✅ Continuously learning new technologies, frameworks, and methodologies.",
+      "✅ Contributed to open-source projects, collaborating with developers worldwide.",
+      "✅ Optimized performance, accessibility, and UX across multiple projects.",
+      "✅ Successfully delivered projects with a focus on scalability and reliability.",
+    ],
+  },
+  {
+    title: "Goals",
+    items: [
+      "🎯 Secure a full-time software development role in a dynamic company.",
+      "🎯 Expand expertise in Cloud Computing, DevOps, and AI-driven development.",
+      "🎯 Build scalable and high-impact solutions for businesses and users.",
+      "🎯 Share knowledge through blogging, tutorials, and community engagement.",
+      "🎯 Contribute more to open-source and collaborate on meaningful projects.",
+      "🎯 Earn industry-recognized certifications to solidify expertise.",
+    ],
+  },
+];
+
+export const workHistory = [
+  {
+    jobTitle: "Fullstack Developer",
+    company: "CodeTribe",
+    duration: "Jun 2024 - Present",
+    description:
+      "Developed responsive web applications using React, Tailwind CSS, and TypeScript. Collaborated with cross-functional teams to deliver high-quality user interfaces and improve performance.",
+    stack: ["React", "Tailwind CSS", "TypeScript"],
+  },
+  {
+    jobTitle: "Software Engineer",
+    company: "Digistrads",
+    duration: "2022 - Current",
+    description:
+      "Developed responsive websites using HTML, CSS, and JavaScript. Built e-commerce solutions integrating shopping carts, payment gateways, and inventory systems. Managed SQL databases, developed backend systems using Django, and built cross-platform apps with Angular and Firebase. Used GitHub for version control and collaborated effectively with teams.",
+    stack: ["HTML", "CSS", "JavaScript", "Django", "Angular", "Firebase", "SQL", "Git"],
+  },
+  {
+    jobTitle: "Freelancer",
+    company: "Self Employed",
+    duration: "2015 - 2022",
+    description:
+      "Handled diverse projects including hardware installations, client communication, software testing, and debugging. Provided excellent customer service and managed multiple projects efficiently. Demonstrated self-motivation and commitment to continuous learning in the tech industry.",
+    stack: ["Hardware", "Networking", "Software Testing", "Client Communication"],
   },
 ];
 

@@ -1,10 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import { Badge } from "./ui/badge";
-import { workHistory } from "@/constants";
+import { goalsAndAchievements } from "@/constants";
 
-export default function Accordion() {
+export default function GoalsAchievementsAccordion() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const handleToggle = (index: number) => {
@@ -13,14 +12,14 @@ export default function Accordion() {
 
   return (
     <div className="w-full bg-bodyColor text-white/80 mx-auto mt-8">
-      {workHistory.map((job, index) => (
+      {goalsAndAchievements.map((section, index) => (
         <div
           key={index}
           className={`border p-2 lightSky text-white/80 ${
             index === 0 ? "rounded-t-lg" : ""
-          } ${index === workHistory.length - 1 ? "rounded-b-lg" : ""} ${
-            index === openIndex ? "border-lightSky" : "border-lightSky"
-          }`}
+          } ${
+            index === goalsAndAchievements.length - 1 ? "rounded-b-lg" : ""
+          } ${index === openIndex ? "border-lightSky" : "border-lightSky"}`}
         >
           <h2>
             <button
@@ -30,10 +29,7 @@ export default function Accordion() {
                 openIndex === index ? "bg-lightSky text-white" : ""
               } hover:bg-lightSky/80 border-lightSky rounded-md focus:outline-none`}
             >
-              <span>
-                {job.jobTitle} at {job.company}{" "}
-                <span className="text-sm text-gray-500">({job.duration})</span>
-              </span>
+              <span>{section.title}</span>
               <svg
                 className={`w-4 h-4 transform ${
                   openIndex === index ? "rotate-180" : ""
@@ -53,19 +49,13 @@ export default function Accordion() {
             </button>
           </h2>
           {openIndex === index && (
-            <>
-              <div className="p-5 bg-bodyColor">
-                <p className="text-white/80">{job.description}</p>
-                <div className="flex flex-wrap gap-2 mt-4 mb-3">
-                {job.stack.map((tech, index) => (
-                  <Badge key={index} className="text-lightSky border-lightSky">
-                    {tech}
-                  </Badge>
+            <div className="p-5 bg-bodyColor">
+              <ul className="text-white/80 space-y-3 text-start">
+                {section.items.map((item, i) => (
+                  <li key={i}>{item}</li>
                 ))}
-              </div>
-              </div>
-             
-            </>
+              </ul>
+            </div>
           )}
         </div>
       ))}

@@ -46,12 +46,12 @@ export const navbarData = [
 ];
 
 export const statsData = [
-  { title: "Projects Completed", value: 100 },
-  { title: "Happy Clients", value: 50 },
-  { title: "Cups of Coffee", value: 500 },
-  { title: "Working Hours", value: 1000 },
-  { title: "Push Ups", value: 50 },
-  { title: "Pages", value: 50 },
+  { title: "Projects Completed", value: 15 },  
+  { title: "Happy Clients", value: 8 },
+  { title: "Tech Stacks Used", value: 6 },  
+  { title: "Blog Posts Written", value: 10 },  
+  { title: "Cups of Coffee", value: 300 },
+  { title: "Lines of Code", value: 15000 }, 
 ];
 
 export const servicesData = [
@@ -273,19 +273,20 @@ export const featuredRepos = [
   {
     name: "dash",
     blogUrl: "https://yourblog.com/dash",
-    imageUrl: "/images/dash.png",
+    imageUrl: "/dash.png",
   },
   {
     name: "CodeTribe",
     blogUrl: "https://yourblog.com/codetribe",
-    imageUrl: "/images/codetribe.png",
+    imageUrl: "/codetribe.webp",
   },
   {
     name: "ContactMaster",
     blogUrl: "https://yourblog.com/contactmaster",
-    imageUrl: "/images/contactmaster.png",
+    imageUrl: "/contactmaster.png",
   },
 ];
+
 
 export const listedRepos = ["alx-low_level_programming", "alx-pre_course", "alx-system_engineering-devops", "github-slideshow"];
 

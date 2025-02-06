@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 export default function Statistics() {
   return (
-    <div className="grid grid-cols-2 items-center md:flex flex-row gap-2.5 md:gap-5">
+    <div className="grid grid-cols-2 items-center md:flex flex-row justify-around gap-2.5 md:gap-5">
       {statsData?.map((item, index) => (
         <div
           key={index}

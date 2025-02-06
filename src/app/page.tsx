@@ -8,7 +8,7 @@ import Statistics from "@/components/Statistics";
 import { useState } from "react";
 import axios from "axios";
 
-import image from "../../public/path.png";
+import image from "../../public/programming.png";
 import ServicesPage from "./services/page";
 import WorkPage from "./work/page";
 import ExperiencePage from "./experience/page";

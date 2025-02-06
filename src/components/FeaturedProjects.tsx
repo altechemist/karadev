@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import image from "../../public/path.png";
+import { featuredRepos } from "@/constants";
 
 interface Project {
   title: string;
@@ -12,7 +13,7 @@ interface Project {
   stack: string[];
   links: { href: string; label: string; icon?: React.ReactNode }[];
   blog?: string;
-  imageSrc?: string;
+  imageUrl?: string;
 }
 
 interface FeaturedProjectsProps {
@@ -60,8 +61,9 @@ const FeaturedProjects: React.FC<FeaturedProjectsProps> = ({ projects }) => {
           >
             <div className="flex flex-col md:flex-row items-center p-4 space-y-6 md:space-y-0 md:space-x-14">
               <div className="flex-shrink-0 w-full sm:w-48 sm:h-48 md:w-72 md:h-72">
+                <p>{featuredRepos[index].imageUrl}</p>
                 <Image
-                  src={project.imageSrc || image}
+                  src={featuredRepos[index].imageUrl || image}
                   alt={project.title}
                   width={500}
                   height={300}

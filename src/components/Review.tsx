@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import image from "../../public/avatar.png";
+import image from "../../public/pic-profile.svg";
 
 type ReviewData = {
   avatar: string;
@@ -15,7 +15,9 @@ interface ReviewProps {
   reviewData: ReviewData;
 }
 
-const Review: React.FC<ReviewProps> = ({reviewData: { avatar, text, name, position, company, companyUrl }}) => {
+const Review: React.FC<ReviewProps> = ({
+  reviewData: { avatar, text, name, position, company, companyUrl },
+}) => {
   return (
     <div className="flex flex-col items-center h-full max-w-sm mx-auto rounded-lg  bg-lightSky/5 border border-lightSky/20 p-4 ">
       {/* Image */}

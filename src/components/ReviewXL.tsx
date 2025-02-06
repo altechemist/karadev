@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import image from "../../public/avatar.png";
+import image from "../../public/pic-profile.svg";
 
 type ReviewData = {
   avatar: string;

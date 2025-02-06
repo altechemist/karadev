@@ -271,19 +271,20 @@ export const toolsData = {
 
 export const featuredRepos = [
   {
-    name: "dash",
-    blogUrl: "https://yourblog.com/dash",
-    imageUrl: "/dash.png",
-  },
-  {
     name: "CodeTribe",
     blogUrl: "https://yourblog.com/codetribe",
     imageUrl: "/codetribe.webp",
   },
   {
+    name: "dash",
+    blogUrl: "https://yourblog.com/dash",
+    imageUrl: "/landing.png",
+  },
+ 
+  {
     name: "ContactMaster",
     blogUrl: "https://yourblog.com/contactmaster",
-    imageUrl: "/contactmaster.png",
+    imageUrl: "/personalization.png",
   },
 ];
 

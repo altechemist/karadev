@@ -5,6 +5,7 @@ import { featuredRepos } from "@/constants";
 import FeaturedProjects from "../../components/FeaturedProjects";
 import AllProjects from "../../components/AllProjects";
 import { Container } from "@/components/Container";
+import FeaturedProject from "@/components/FeaturedProject";
 
 export default function WorkPage() {
   interface Project {
@@ -99,22 +100,28 @@ export default function WorkPage() {
   return (
     <div className="bg-bodyColor text-white/80">
       <Container className="bg-bodyColor text-white/80 py-20 min-h-screen min-w-100vh content-center px-2">
-        <h1 className="text-3xl text-center md:text-5xl font-bold text-lightSky">
-          My Work
-        </h1>
-        <h4 className="text-center text-white/70 text-lg md:text-xl mt-2">
-          Explore my portfolio, where I showcase a selection of past projects.
-          From web development to creative design, each project reflects my
-          commitment to quality, innovation, and problem-solving.
-        </h4>
-        {loading ? (
-          <div className="mt-4 text-center text-sm text-lightSky">Loading...</div>
-        ) : (
-          <div>
-            <FeaturedProjects projects={featuredProjects} />
-            <AllProjects projects={projects} />
-          </div>
-        )}
+        <div>
+          <h1 className="text-3xl text-center md:text-5xl font-bold text-lightSky">
+            My Work
+          </h1>
+          <h4 className="text-center text-white/70 text-lg md:text-xl mt-2">
+            Explore my portfolio, where I showcase a selection of past projects.
+            From web development to creative design, each project reflects my
+            commitment to quality, innovation, and problem-solving.
+          </h4>
+          {loading ? (
+            <div className="mt-4 text-center text-sm text-lightSky">Loading...</div>
+          ) : (
+            <div>
+              <FeaturedProjects projects={featuredProjects} />
+              <AllProjects projects={projects} />
+            </div>
+          )}
+        </div>
+
+        <div>
+          <FeaturedProject />
+        </div>
       </Container>
     </div>
   );

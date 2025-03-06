@@ -47,12 +47,12 @@ export const navbarData = [
 ];
 
 export const statsData = [
-  { title: "Projects Completed", value: 15 },  
+  { title: "Projects Completed", value: 15 },
   { title: "Happy Clients", value: 8 },
-  { title: "Tech Stacks Used", value: 6 },  
-  { title: "Blog Posts Written", value: 10 },  
+  { title: "Tech Stacks Used", value: 6 },
+  { title: "Blog Posts Written", value: 10 },
   { title: "Cups of Coffee", value: 300 },
-  { title: "Lines of Code", value: 15000 }, 
+  { title: "Lines of Code", value: 15000 },
 ];
 
 export const servicesData = [
@@ -68,49 +68,49 @@ export const servicesData = [
     title: "App Dev",
     description:
       "High-performance mobile apps for Android and iOS, built to enhance your business in the mobile space.",
-      icon: MdOutlinePhoneAndroid ,
+    icon: MdOutlinePhoneAndroid,
   },
   {
     number: "03",
-    title: "UI/UX Design",
+    title: "UI&UX Design",
     description:
       "Intuitive interfaces that improve user engagement and align with your business goals.",
-      icon: FaPaintBrush ,
+    icon: FaPaintBrush,
   },
   {
     number: "04",
     title: "E-commerce Solutions",
     description:
       "End-to-end e-commerce services, from store setup to payment integration, ensuring security and scalability.",
-      icon: MdOutlinePayment,
+    icon: MdOutlinePayment,
   },
   {
     number: "05",
     title: "SEO Optimization",
     description:
       "Boost visibility and search rankings with proven SEO strategies, driving more organic traffic.",
-      icon: CgSearchLoading,
+    icon: CgSearchLoading,
   },
   {
     number: "06",
     title: "Content Management Systems",
     description:
       "User-friendly CMS solutions that make managing your website content seamless and efficient.",
-      icon: BiSolidBookContent,
+    icon: BiSolidBookContent,
   },
   {
     number: "07",
     title: "Custom Web Solutions",
     description:
       "Tailored web solutions to address complex business needs, including API integrations and custom databases.",
-      icon: AiOutlineApi,
+    icon: AiOutlineApi,
   },
   {
     number: "08",
     title: "Website Maintenance & Support",
     description:
       "Ongoing support to keep your website optimized, with regular updates, security patches, and troubleshooting.",
-      icon: BsDatabaseFillGear,
+    icon: BsDatabaseFillGear,
   },
 ];
 
@@ -312,7 +312,7 @@ export const featuredRepos = [
     blogUrl: "https://yourblog.com/dash",
     imageUrl: "/landing.png",
   },
- 
+
   {
     name: "ContactMaster",
     blogUrl: "https://yourblog.com/contactmaster",

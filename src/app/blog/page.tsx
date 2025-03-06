@@ -25,10 +25,10 @@ export default function BlogPage() {
               <Image src={post.image} alt={post.title} width={400} height={200} />
               <h3 className="text-xl font-bold text-lightSky">{post.title}</h3>
               <p className="text-sm text-white/70">{post.author} - {post.date}</p>
-              <p className="text-white/80 mt-2">{post.description}</p>
+              <p className="text-white/80 mt-2 mb-4">{post.description}</p>
               <Link 
                 href={`/blog/${post.slug}`}
-                className="text-lightSky hover:text-lightSky/80 mt-2"
+                className="text-lightSky hover:text-lightSky/80 mt-4"
               >
                 Read More
               </Link>
